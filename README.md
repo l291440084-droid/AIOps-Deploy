@@ -18,8 +18,8 @@
 
 ```bash
 # 第一步：从终端克隆项目（项目会自动启动安装向导）
-git clone https://github.com/<your-username>/claude-deploy.git
-cd claude-deploy
+git clone https://github.com/l291440084-droid/AIOps-Deploy.git
+cd AIOps-Deploy
 python3 launch.py          # Linux / macOS / Windows
 
 # 也可以直接运行一键脚本：
@@ -72,7 +72,7 @@ Ollama · LM Studio · vLLM · LocalAI · Text Gen WebUI · OpenAI 兼容接口
 ## 📁 项目结构 / Project Structure
 
 ```
-claude-deploy/
+AIOps-Deploy/
 ├── claude_deploy_gui.py   # GUI 主程序（向导式，500+ 行）
 ├── deploy_core.py         # 核心逻辑（安装/配置/连接测试）
 ├── providers.py           # 50+ 提供商数据库（可扩展）
@@ -128,21 +128,8 @@ export PATH="$(npm config get prefix)/bin:$PATH"
 
 ---
 
-## 📤 上传到 GitHub / Upload to GitHub
-
-```bash
-cd /home/one/claude-deploy
-git init
-git add -A
-git commit -m "Initial release: AI API one-click deploy tool with 6 UN languages, 50+ providers"
-
-# 在 GitHub 创建仓库后:
-git remote add origin https://github.com/<your-username>/claude-deploy.git
-git branch -M main
-git push -u origin main
-```
-
 ---
+
 
 ## 💡 改进建议 / Improvement Suggestions
 
