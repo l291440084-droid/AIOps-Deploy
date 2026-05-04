@@ -1,0 +1,6 @@
+# Build-time dependencies (for creating standalone executables)
+pyinstaller>=6.0
+
+# Runtime dependencies: NONE
+# The GUI app uses only Python stdlib: tkinter, subprocess, threading, queue
+# deploy_core.py uses only Python stdlib
